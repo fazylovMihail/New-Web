@@ -1,12 +1,16 @@
+*{
+    user-select: none;
+}
 body{
-    background-image: url(images/background.png);
+    /* background-image: url(images/background.png); */
+    background-image: linear-gradient(121deg,#008ed0ff,#02bce8ff);
     background-repeat: no-repeat;
     margin: 0;
     background-position: bottom;
     font-family: 'StratosSkyeng';
 }
 .wrapper{
-    background-image: url(images/head.png);
+    background-image: url(images/i\ \(4\).webp);
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
@@ -19,21 +23,21 @@ body{
 }
 table{
     width: 1200px;
-    height: 100vh;
     border-collapse: collapse;
     margin: 0 auto;
-
+    background-color: yellow;
 }
 tr,td{
-    border: 25px solid #fff;
-    text-align: center;
-    vertical-align: bottom;
+    border: 25px solid yellow;
+    position: relative;
 }
 .table-cat-img{
     width: 560px;
+    height: 350px;
 }
 p{
     width: max-content;
+    position: absolute;
     font-size: 30px;
     background-color: #fff;
     border-radius: 25px;
@@ -41,7 +45,7 @@ p{
     margin: 23px auto;
 }
 a{
-    background-color: #894AFF;
+    background-image: linear-gradient(21deg, #dd03e4, #5611ec);
     display: block;
     color:#fff;
     padding: 11px 30px;
